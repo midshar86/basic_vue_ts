@@ -1,0 +1,28 @@
+@ht:30px;
+@wt:150px;
+@cr:skyblue;
+
+// 定义变量与嵌套语法
+#list{
+    background-color: #ddd;
+    li{
+        width:@wt;
+        background-color: @cr;
+        p{
+            background-color: #4cd;
+        }
+        .sublist{
+            list-style: none;
+            padding-left: 15px;
+            width: @wt - 50px;
+            height: fit-content;
+            background-color: @cr;
+            li{
+                width: @wt - 50px;
+                color: orange;
+                margin: 10px 0;
+            border-left: 5px solid #aaa;
+            }
+        }
+    }
+}

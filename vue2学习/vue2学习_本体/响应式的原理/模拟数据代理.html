@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let door = {}
+        let data = {
+            name: 'midshar',
+            age: 18
+        }
+        // 循环遍历 data 对象, 当使用 door 对象访问 data 中的 key 值时, 进行拦截操作
+        for (let key in data) {
+            Object.defineProperty(door, key, {
+                get() {
+                    console.log(`正在访问属性${key}`)
+                    return data[key]
+                },
+                set(val) {
+                    console.log(`正在设置属性${key}`)
+                    data[key] = val
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>

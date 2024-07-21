@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 源对象
+    let dataObj = {
+      key: 'key-value',
+      prop: 'prop-value'
+    }
+
+    // 代理对象
+    let proxyDataObj = new Proxy(dataObj, {
+      get(target, prop) {
+        // 参数 target 表示代理的对象, prop 表示正在访问的该对象中的属性
+        return Reflect.get(target, prop) // 使用 Reflect 来获取对应的属性值
+      },
+      set(target, prop, value) {
+        // 在这里能够处理复杂逻辑
+        Reflect.set(target, prop, value) // 使用 Reflect 来设置对应的属性值
+      },
+      deleteProperty(target, prop) {
+        return Reflect.deleteProperty(target, prop) // 使用 Reflect 来删除对应的属性
+      }
+    })
+
+    // 对代理对象所做的所有修改都会同步到源对象中
+
+    proxyDataObj.key // 访问代理对象中的属性会触发 get()
+    proxyDataObj.key = 'change' // 设置代理对象中的属性会触发 set()
+    delete proxyDataObj.key // 删除代理对象中的属性会触发 deleteProperty()
+    proxyDataObj.newProp = 'new' // 为源对象中不存在的属性赋值也会触发 set()
+  </script>
+</body>
+
+</html>

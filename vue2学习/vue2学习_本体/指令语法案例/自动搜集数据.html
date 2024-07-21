@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/vue.js"></script>
+</head>
+
+<body>
+    <div class="root">
+        <form action="javascript:void(0)">
+            <p>用户名:<input type="text" v-model="userInfo.username"></p>
+            <p>密码:<input type="password" v-model="userInfo.password"></p>
+            <!-- 单选框或者多选框绑定数据时应当在每个input中都绑定v-model -->
+            <p>性别:<input name="gender" type="radio" value="男" v-model="userInfo.gender">男<input name="gender"
+                    type="radio" value="女" v-model="userInfo.gender">女</p>
+            <!-- 搜集多选框数据初始数据当为数组 -->
+            <p>年龄:<input name="sports" type="checkbox" value="篮球" v-model="userInfo.hobby">🏀<input name="sports"
+                    type="checkbox" value="足球" v-model="userInfo.hobby">⚽<input name="sports" type="checkbox"
+                    value="乒乓球" v-model="userInfo.hobby">🏓</p>
+            <button @click="handlerSubmit">Click</button>
+        </form>
+    </div>
+    <script>
+        let app = new Vue({
+            el: '.root',
+            data: {
+                userInfo: {
+                    username: '',
+                    password: '',
+                    gender: '',
+                    hobby: []
+                }
+            },
+            methods: {
+                handlerSubmit() {
+                    console.log(this.userInfo)
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,528 @@
+{
+  "status": 0,
+  "data": {
+    "films": [
+      {
+        "filmId": 6904,
+        "name": "谈判专家",
+        "poster": "https://pic.maizuo.com/usr/movie/2b0a471ffce134e13bd12c9dc9e81ffb.jpg",
+        "actors": [
+          {
+            "name": "邱礼涛",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/03f51d6fde99eaa0a39cbc5db3d6514b.jpg"
+          },
+          {
+            "name": "刘青云",
+            "role": "卓文伟",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/51cec13600aa7f842fcebde2c65014fd.jpg"
+          },
+          {
+            "name": "吴镇宇",
+            "role": "谢家俊",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/39d3432ff8c97c8bdc0f7e8fa6d164a4.jpg"
+          },
+          {
+            "name": "苗侨伟",
+            "role": "罗安邦",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/618486bf2f1df8e166b5ad46577c5eba.jpg"
+          },
+          {
+            "name": "姜皓文",
+            "role": "李志斌",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/a2043acfd9ee41fcbef9613c65e37369.jpg"
+          }
+        ],
+        "director": "邱礼涛",
+        "category": "剧情",
+        "synopsis": "强强对话，以“嘴”服人！谈判专家卓文伟（刘青云 饰）意外成为一桩命案的头号嫌犯，被逼无奈下他占领警署挟持警察作人质，并指定前谈判专家谢家俊（吴镇宇 饰）与自己对话。擅长攻心的谢家俊与技巧高超的卓文伟反复拉锯，唇枪舌战间，两人的立场与心态逐渐发生改变……本片改编自美国电影《王牌对王牌》。",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "中国大陆,中国香港",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1717804800,
+        "timeType": 3,
+        "runtime": 120,
+        "grade": "7.5",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6908,
+        "name": "扫黑·决不放弃",
+        "poster": "https://pic.maizuo.com/usr/movie/6f9ba3a147f3c585d359a5c2778bcfff.jpg",
+        "actors": [
+          {
+            "name": "五百",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/e1a5c22aa2d97867ff6b571f5e3c3a40.jpg"
+          },
+          {
+            "name": "肖央",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/cdcf2919a09bfb7d4e26e810fe256675.jpg"
+          },
+          {
+            "name": "余皑磊",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/0d45710026cb2fb6375867b989c0aeb8.jpg"
+          },
+          {
+            "name": "范丞丞",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/26d5deaa5454fb339f570e93228cc349.png"
+          },
+          {
+            "name": "李诚儒",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/6997a0a6bc57ef24d236923f755a9723.jpg"
+          }
+        ],
+        "director": "五百",
+        "category": "犯罪|喜剧",
+        "synopsis": "“扫黑风暴”继绿藤市之后席卷奎州，偏偏在督导组进驻的节骨眼儿上，李南北（肖央 饰）和俞青（范丞丞 饰）这对窝囊师徒竟意外抓获了潜逃多年的黑社会头目。一时之间，各方势力纷纷卷入，将矛头对准了于洪波（李诚儒 饰）和段毅（余皑磊 饰）带队的市公安局。黑恶势力正一步步进行着“合法洗白”，离奇旧案沉渣泛起，知名企业家、官员都被波及，调查过程历经生死，而对他们的考验，才刚刚开始。",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "中国大陆",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1717804800,
+        "timeType": 3,
+        "runtime": 115,
+        "grade": "7.8",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6903,
+        "name": "走走停停",
+        "poster": "https://pic.maizuo.com/usr/movie/276c457f6d1930d02f1ee0915d8f3b52.jpg",
+        "actors": [
+          {
+            "name": "龙飞",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/c3d16b1037ae22b5e694645ffa3ed8db.jpg"
+          },
+          {
+            "name": "胡歌",
+            "role": " 吴迪",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/8a034f964d559e744688b5e6611c58ca.jpeg"
+          },
+          {
+            "name": "高圆圆",
+            "role": " 冯柳柳",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/90ca5296e067d48643008845cacce78d.jpg"
+          },
+          {
+            "name": "岳红",
+            "role": " 吴迪母亲",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/c9a4afb779b11925e76481e3eaab61e7.jpg"
+          },
+          {
+            "name": "周野芒",
+            "role": "吴迪父亲",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/828ad3f9477e56ae1236e5e7970edd38.jpg"
+          }
+        ],
+        "director": "龙飞",
+        "category": "喜剧|家庭",
+        "synopsis": "脆皮青年吴迪（胡歌 饰），工作感情双双失意，沮丧返乡。吴迪“突袭”返乡的行为打破了一家人原本平静的生活，他不仅需要重新面对与家人的“亲密”相处，还要为自己的未来寻找更多的可能。在现实面前多番碰壁后，一次偶然的机会下他与高中同学冯柳柳（高圆圆 饰）相遇，随后生活也发生了意想不到的转变。",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "中国大陆",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1717804800,
+        "timeType": 3,
+        "runtime": 99,
+        "grade": "7.5",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6909,
+        "name": "我才不要和你做朋友呢",
+        "poster": "https://pic.maizuo.com/usr/movie/5315e8103dd09d47b5effd21a18f8f8e.jpg",
+        "actors": [
+          {
+            "name": "何念",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/9bfd5e20523b2b4c5fe5203aaa2dd3ab.jpg"
+          },
+          {
+            "name": "庄达菲",
+            "role": " 李进步",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/eb34beaaac4ed83e016bde7eed9c7549.jpg"
+          },
+          {
+            "name": "陈昊宇",
+            "role": " 李青桐",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/b477892bbec2ae8783022cddf6e28207.jpg"
+          },
+          {
+            "name": "王皓",
+            "role": " 陈君何",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/a203b6591a67e1ce2f03ba5a4b2410da.jpg"
+          },
+          {
+            "name": "毕雯珺",
+            "role": " 吴智勋",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/ce01590c562f43b668c684ac6cb32bb1.jpg"
+          }
+        ],
+        "director": "何念",
+        "category": "喜剧|青春",
+        "synopsis": "夏天就要看肆意欢笑的青春喜剧！6月8日，见笑了朋友！17岁的高中生李进步（庄达菲 饰）和妈妈李青桐（陈昊宇饰）一直以来矛盾重重。一次偶然的奇幻际遇，李进步回到妈妈的高中年代，闯入了妈妈的朋友圈“破铜烂铁乐队”。当一心想要“逆天改爸”的李进步遇到重情重义的李青桐和她的朋友们，她们的生活状况不断却又笑料百出。一场搞笑逗趣的青春之旅，正悄然揭开序幕……",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "中国大陆",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1717804800,
+        "timeType": 3,
+        "runtime": 114,
+        "grade": "7.8",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6930,
+        "name": "疯狂的麦克斯：狂暴女神",
+        "poster": "https://pic.maizuo.com/usr/movie/9a17e90d14526998820d411b6d32b871.jpg",
+        "actors": [
+          {
+            "name": "乔治·米勒",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/f5f9cd5a6d45a17d5497c1a94b59dbb6.jpg"
+          },
+          {
+            "name": "安雅·泰勒-乔伊",
+            "role": " 弗瑞奥萨 Furiosa",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/123cf5d25e994b1010538df91fd01ef2.jpg"
+          },
+          {
+            "name": "克里斯·海姆斯沃斯",
+            "role": " 狄门特斯 Dr. Dementus",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/86edcefdaa41e03841b52be374484fc4.jpg"
+          },
+          {
+            "name": "汤姆·伯克",
+            "role": " Praetorian Jack",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/5d0b5e620f99839d6fa86dcf2a8feca6.jpg"
+          },
+          {
+            "name": "艾莉拉·布朗",
+            "role": " Young Furiosa",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/01f1342071367723ce4d32bdc90dec4f.jpg"
+          }
+        ],
+        "director": "乔治·米勒",
+        "category": "动作|冒险",
+        "synopsis": "《疯狂的麦克斯：狂暴女神》讲述了《疯狂的麦克斯4：狂暴之路》中弗瑞奥萨这一重要角色的起源故事：随着文明世界分崩离析，年轻的弗瑞奥萨被人从家园“丰饶之地”掠走，落入了由军阀狄门特斯领导的帮派手中。穿过荒原，他们来到了不死老乔所掌管的堡垒。在两位暴君激烈争夺统治地位的同时，弗瑞奥萨必须在重重考验中活下来，并想方设法寻找回家的路；她也逐渐成长为观众们熟知的那位利落酷飒的狂暴女神。",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "美国",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1717718400,
+        "timeType": 3,
+        "runtime": 149,
+        "grade": "7.1",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6933,
+        "name": "排球少年!! 垃圾场决战",
+        "poster": "https://pic.maizuo.com/usr/movie/8c0b6266d51e9b1d20e80c61872eb1de.jpg",
+        "actors": [
+          {
+            "name": "村濑步",
+            "role": "配音演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/89652de9b9017a6fe40d6e39f6568b72.jpg"
+          },
+          {
+            "name": "石川界人",
+            "role": "配音演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/13ebe73131a7395d18163a3c7970f631.jpg"
+          },
+          {
+            "name": "日野聪",
+            "role": "配音演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/4e0e66fe901d9579a9c31360fed0e5f8.jpg"
+          },
+          {
+            "name": "入野自由",
+            "role": "配音演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/c6755c434275f3368176bead67356f38.jpg"
+          },
+          {
+            "name": "细谷佳正",
+            "role": "配音演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/e81f2d4403883fa9ca8cc4d7e27beb7a.jpg"
+          }
+        ],
+        "director": "满仲劝",
+        "category": "动画|运动",
+        "synopsis": "故事讲述了风靡十年的超人气热血IP《排球少年!!》中人气最高、最精彩绝伦的垃圾场决战。日向翔阳因为心怀成为“排球小巨人”的梦想加入了乌野高中排球部，逐渐成为独当一面的副攻手。春季高中排球比赛上，乌野高中排球部终于迎来了与音驹高中排球部的正式比赛。同为“没落的豪强”，两支队伍惺惺相惜，却从未站上过同一场正式较量的舞台。长久的纠葛终于迎来了结，一场“只有一次”的命运对决即将开幕！振翅一击吧，心怀梦想的少年们！",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "日本",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1718409600,
+        "timeType": 3,
+        "runtime": 85,
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6916,
+        "name": "美国内战",
+        "poster": "https://pic.maizuo.com/usr/movie/1fd49826d2fdbe0971dcfa295a2fb95c.jpg",
+        "actors": [
+          {
+            "name": "亚历克斯·加兰",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/e091adaba83091bc16aff4c2520308c1.jpg"
+          },
+          {
+            "name": "克尔斯滕·邓斯特",
+            "role": "Lee",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/c164af6c364beb6a525fbef3ad79f4b9.jpg"
+          },
+          {
+            "name": "瓦格纳·马拉",
+            "role": "Joel",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/88d5bb5274643ad1ed62ca838beebec0.jpg"
+          },
+          {
+            "name": "斯蒂芬·亨德森",
+            "role": "Sammy",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/696708423ca472fe532ed23b5a5c1de0.jpg"
+          },
+          {
+            "name": "卡莉·史派妮",
+            "role": "Jessie",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/33501ccba49442d85affbbefffa4cdbf.jpg"
+          }
+        ],
+        "director": "亚历克斯·加兰",
+        "category": "剧情|战争",
+        "synopsis": "亚历克斯·加兰([机械姬])将自编自导一部A24新片，片名定为[内战](Civil War，暂译)，卡司包括克斯汀·邓斯特、瓦格纳·马拉、斯蒂芬·亨德森、卡莉·史派妮等。本片的详细情节暂未得知，将设定在未来的美国，是一部动作史诗电影。",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "美国",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1717718400,
+        "timeType": 3,
+        "runtime": 109,
+        "grade": "7.4",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6926,
+        "name": "加菲猫家族",
+        "poster": "https://pic.maizuo.com/usr/movie/123d6d1753b7bb252fafd0d0f42a0419.jpg",
+        "actors": [
+          {
+            "name": "马克·丁达尔",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/d2b2f91f0fba1c9accb989da5c8676dd.jpg"
+          },
+          {
+            "name": "克里斯·帕拉特",
+            "role": "加菲猫 Garfield",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/5521ae12a1ac47954579ec0a330d64e5.jpg"
+          },
+          {
+            "name": "塞缪尔·杰克逊",
+            "role": "维克 Vic",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/e7a67dabb8e34b73b3b88e5545eaaa72.jpg"
+          },
+          {
+            "name": "汉娜·沃丁厄姆",
+            "role": "配音演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/8982a71ae9dab1c1cbf4dce20cd204bb.jpg"
+          },
+          {
+            "name": "文·瑞姆斯",
+            "role": "配音演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/ad01ba83ca95040260e354a4f3a0d254.jpg"
+          }
+        ],
+        "director": "马克·丁达尔",
+        "category": "喜剧|动画|冒险",
+        "synopsis": "《加菲猫》是马克·丁达尔执导，Paul A. Kaplan、Mark Torgove、大卫·雷诺兹担任编剧，克里斯·帕拉特担任主要配音，DNEG Animation制作的动画电影，于2024年5月24日在美国上映。 影片改编自吉姆·戴维斯的同名漫画，讲述了加菲猫与欧迪同加菲猫的父亲维克一起进行一场搞笑且高风险的盗窃的故事。",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "美国,英国",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1717200000,
+        "timeType": 3,
+        "runtime": 101,
+        "grade": "7.1",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6919,
+        "name": "哆啦A梦：大雄的地球交响乐",
+        "poster": "https://pic.maizuo.com/usr/movie/661312f02413fc27d2a9c9e2484d534a.jpg",
+        "actors": [
+          {
+            "name": "今井一晓",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/37de0157ec1a3da68d3383ac8e7bf853.jpg"
+          },
+          {
+            "name": "水田山葵",
+            "role": "哆啦A梦",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/73ba8d79a097338e643f0a5dee316aff.jpg"
+          },
+          {
+            "name": "大原惠美",
+            "role": "野⽐⼤雄",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/2a153d33d95a19eec85f7f1c24eaeece.jpg"
+          },
+          {
+            "name": "嘉数由美",
+            "role": "源静香",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/4c45ae6e573227f559a82d6d13b5340e.jpg"
+          },
+          {
+            "name": "木村昴",
+            "role": "刚田武",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/485f0e5a1959d4a812c130bc4828ab79.jpg"
+          }
+        ],
+        "director": "今井一晓",
+        "category": "动画|音乐|冒险",
+        "synopsis": "为了准备学校音乐会的演出，大雄埋头苦练他并不擅长的竖笛。这时，他的面前出现了一位神秘的外星少女米佳，她格外中意大雄吹出来的跑调的笛声，于是米佳引领哆啦A梦和伙伴们来到了以音乐为能量的外星球上的一座音乐殿堂。就在这时，一种能够令音乐从世界上消失的神秘生命体突然降临，地球陷入危机……！哆啦A梦和伙伴们究竟能否拯救音乐的未来和地球危机呢？",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "日本",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1717113600,
+        "timeType": 3,
+        "runtime": 116,
+        "grade": "7.8",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6860,
+        "name": "九龙城寨之围城",
+        "poster": "https://pic.maizuo.com/usr/movie/8112fd3abb1154f4bfa4b042207dde7c.jpg",
+        "actors": [
+          {
+            "name": "郑保瑞",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/231b021e959cb20e454c3aaba29d9555.jpg"
+          },
+          {
+            "name": "古天乐",
+            "role": "龙卷风",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/d08050b18e5d0a55edefdbd803dbf2b3.png"
+          },
+          {
+            "name": "洪金宝",
+            "role": "大老板",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/91ef1c8b34c22f4c81acb288c9839f80.jpg"
+          },
+          {
+            "name": "任贤齐",
+            "role": "狄秋",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/64bf91459a63b384bdc6617a3677e511.jpg"
+          },
+          {
+            "name": "林峯",
+            "role": "陈洛军",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/106eaae8de26e6b1b5ffa7547dee946a.png"
+          }
+        ],
+        "director": "郑保瑞",
+        "category": "动作|犯罪",
+        "synopsis": "真人版热血番，五一档动作爽片！上世纪八十年代，恶名昭著的“三不管”地带九龙城寨中黑帮盘踞，危机四伏。一位落难青年因逃难误闯，却意外在此收获兄弟情义。与此同时，觊觎城寨许久的恶人帮掀起了一轮轮夺寨狠斗，保卫家寨的高燃热血之战随即爆发！本片根据余儿原著热血格斗小说《九龙城寨》改编。",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "中国大陆,中国香港",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1714521600,
+        "timeType": 3,
+        "runtime": 126,
+        "grade": "7",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      }
+    ],
+    "total": 55
+  },
+  "msg": "ok"
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/vue.js"></script>
+</head>
+
+<body>
+    <div class="root">
+        <p>请输入用户名:<input type="text" v-model="inputValue"><span v-text="info"></span></p>
+        <p>请输入用户名:<input type="text" v-model="inputValue2"><span v-text="info2"></span></p>
+    </div>
+    <script>
+        let app = new Vue({
+            el: '.root',
+            data: {
+                inputValue: null,
+                inputValue2: null,
+                info: '',
+                info2: '',
+                timer: null,
+                timer2: null
+            },
+            methods: {
+                handlerInput(val) {
+                    clearTimeout(this.timer2)
+                    this.info2 = '请稍等...'
+                    this.timer2 = setTimeout(() => {
+                        switch (val) {
+                            case '':
+                                this.info2 = '用户名不能为空!'
+                                break;
+                            case 'admin':
+                                this.info2 = '用户名重复!'
+                                break;
+                            default:
+                                this.info2 = '用户名可用!'
+                                break;
+                        }
+                    }, 1000)
+                }
+            },
+            watch: {
+                // 只有在watch中才可以编写异步代码
+                inputValue(newVal) {
+                    clearTimeout(this.timer)
+                    this.info = '请稍等...'
+                    this.timer = setTimeout(() => {
+                        // 1s之后判断用户名的重复情况
+                        switch (this.inputValue) {
+                            case '':
+                                this.info = '用户名不能为空!';
+                                break;
+                            case 'admin':
+                                this.info = '用户名重复!'
+                                break;
+                            default:
+                                this.info = '用户名可用!'
+                                break;
+                        }
+                    }, 1000)
+                },
+                inputValue2(newVal) {
+                    this.handlerInput(newVal)
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

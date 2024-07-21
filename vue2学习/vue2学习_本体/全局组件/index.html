@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/vue.js"></script>
+</head>
+
+<body>
+    <div class="root">
+        <sub-component></sub-component>
+    </div>
+    <script>
+        Vue.component('sub-component', {
+            template: `
+            <div>
+                <h1>{{ title }}</h1>
+                <p><button @click="changeTitle">点击更换标题</button></p>
+            </div>
+            `,
+            data() {
+                return {
+                    title: '自定义组件'
+                }
+            },
+            methods: {
+                changeTitle() {
+                    this.title = "更换后的标题"
+                }
+            }
+        })
+        new Vue({
+            el: '.root'
+        })
+    </script>
+</body>
+
+</html>

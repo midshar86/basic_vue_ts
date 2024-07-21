@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/vue.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul {
+            margin: 50px auto;
+            width: 400px;
+        }
+
+        ul>li {
+            line-height: 40px;
+        }
+
+        ul>li.active {
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="root">
+        <ul>
+            <!-- 动态判断条件即可 -->
+            <li v-for="(item,index) in listItem" :class="{active:clickIndex===index}" v-on:click="handlerClick(index)">
+                {{ item }}</li>
+        </ul>
+    </div>
+    <script>
+        let app = new Vue({
+            el: '.root',
+            data: {
+                listItem: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                clickIndex: null
+            },
+            methods: {
+                handlerClick(i) {
+                    this.clickIndex = i
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/vue.js"></script>
+</head>
+
+<body>
+    <div class="root">
+        <p>{{ obj }}</p>
+        <p><button @click="handlerAdd">点击新增对象属性</button></p>
+        <p><button @click="handlerDel">点击删除对象属性</button></p>
+        <p><button @click="handlerChangeOrigin">点击变更原数组</button></p>
+        <p><button @click="handlerFilterArray">点击筛选原数组</button></p>
+        <p><button @click="handlerUpdataItem">点击变更数组中的单项元素</button></p>
+        <p>{{ array }}</p>
+    </div>
+    <script>
+        let app = new Vue({
+            el: '.root',
+            data: {
+                obj: {
+                    name: 'midshar',
+                    del: '需要被删除的属性'
+                },
+                array: ['apple', 'banana', 'mango']
+            },
+            methods: {
+                handlerAdd() {
+                    this.$set(this.obj, 'age', 28)
+                },
+                handlerDel() {
+                    this.$delete(this.obj, 'del')
+                },
+                handlerChangeOrigin() {
+                    this.array.push('pear')
+                },
+                handlerFilterArray() {
+                    this.array = this.array.filter(item => item.indexOf('n') !== -1)
+                },
+                handlerUpdataItem() {
+                    this.$set(this.array, 2, 'melon')
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

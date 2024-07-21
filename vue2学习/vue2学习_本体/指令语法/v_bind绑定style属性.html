@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/vue.js"></script>
+</head>
+
+<body>
+    <div class="root">
+        <p :style="testStyle">测试文本</p>
+        <p :style="[obj1,obj2]">测试文本</p>
+    </div>
+    <script>
+        let app = new Vue({
+            el: '.root',
+            data: {
+                testStyle: {
+                    backgroundColor: 'orange',
+                    color: 'blue'
+                },
+                obj1: {
+                    width: 100 + 'px',
+                    height: 100 + 'px',
+                    backgroundColor: 'yellow'
+                },
+                obj2: {
+                    position: 'fixed',
+                    top: '50%',
+                    left: '50%',
+                    marginTop: '-50px',
+                    marginLeft: '-50px'
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

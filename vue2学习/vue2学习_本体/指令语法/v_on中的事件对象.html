@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/vue.js"></script>
+</head>
+
+<body>
+    <div class="root">
+        <button v-on:click="handlerClick">点击获取Vue实例对象</button>
+        <button v-on:click="handlerClickSome('传递参数1','传递参数2','传递参数3')">点击获取传参</button>
+        <button v-on:click="handlerClickEventObj('传递参数1',$event,'传递参数2','传递参数3')">点击获取事件对象</button>
+    </div>
+    <script>
+        let app = new Vue({
+            el: '.root',
+            methods: {
+                handlerClick() {
+                    console.log(this)
+                },
+                handlerClickSome(...argus) {
+                    console.log(argus)
+                },
+                handlerClickEventObj(...argus) {
+                    console.log(argus)
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

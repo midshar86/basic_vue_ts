@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/vue.js"></script>
+</head>
+
+<body>
+    <div class="root">
+        <ul>
+            <li v-for="item in cites">{{ item.province }}
+                <ol>
+                    <li v-for="city in item.cities">{{ city }}</li>
+                </ol>
+            </li>
+        </ul>
+
+        <ul>
+            <li v-for="(item,key) in obj">{{ item }}----{{ key }}</li>
+        </ul>
+    </div>
+    <script>
+        let app = new Vue({
+            el: '.root',
+            data: {
+                cites: [{
+                        province: '四川省',
+                        cities: ['广元市', '绵阳市', '德阳市', '南充市']
+                    },
+                    {
+                        province: '陕西省',
+                        cities: ['汉中市', '宝鸡市', '安康市', '延安市']
+                    }
+                ],
+                obj: {
+                    name: 'midshar',
+                    age: 18,
+                    gender: 'male'
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

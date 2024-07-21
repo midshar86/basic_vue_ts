@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/vue.js"></script>
+    <style>
+        p.bgcolor {
+            background-color: red;
+        }
+
+        p.font {
+            font-size: 25px;
+            color: orange;
+            font-weight: bold;
+        }
+
+        p.size {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="root">
+        <!-- 使用对象形式绑定多个class类 -->
+        <p :class="{bgcolor,font}">测试文本</p>
+        <!-- 使用数组与对象的混合形式绑定多个class类 -->
+        <p :class="['size','bgcolor',{font}]">测试文本</p>
+    </div>
+    <script>
+        let app = new Vue({
+            el: '.root',
+            data: {
+                bgcolor: true,
+                font: true
+            }
+        })
+    </script>
+</body>
+
+</html>

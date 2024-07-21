@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../lib/vue.js"></script>
+</head>
+
+<body>
+    <div class="root">
+        <p>请输入内容：<input type="text" v-model="inputVal"></p>
+        <ul>
+            <li v-for="item in filterArray" :key="item">{{ item }}</li>
+        </ul>
+    </div>
+    <script>
+        let app = new Vue({
+            el: '.root',
+            data: {
+                list: ['sichuan', 'shanxi', 'chongqing', 'guangdong', 'guangxi', 'yunnan', 'beijing', 'fujian',
+                    'shandong', 'xizang'
+                ],
+                inputVal: ''
+            },
+            computed: {
+                // 定义一个数组, 用来存储筛选后的数据
+                filterArray() {
+                    return this.list.filter(item => item.indexOf(this.inputVal) !== -1)
+                }
+            },
+            watch: {}
+        })
+    </script>
+</body>
+
+</html>
